@@ -5,6 +5,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import pygsheets
 import os
 
+#aaa
 # Load CSVs
 df_coinmarketcap = pd.read_csv('data/csv/cmc_load_coins.csv')
 df_ath = pd.read_csv('data/csv/load_aths.csv')
